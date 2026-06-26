@@ -9741,3 +9741,70 @@ textarea.form-control {
     font-size:14px;
 }
 
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+  /* Hero */
+  #typing-animation{
+    font-size:22px;
+    white-space:normal;
+    text-align:center;
+  }
+
+  .slider-text h1{
+    font-size:38px;
+    text-align:center;
+  }
+
+  .slider-text p{
+    text-align:center;
+  }
+
+  /* Buttons */
+  .btn{
+    width:100%;
+    margin-bottom:10px;
+  }
+
+  /* About Image */
+  .about-img img{
+    width:180px;
+    margin:auto;
+    display:block;
+  }
+
+  /* About text */
+  .about-info{
+    text-align:center;
+    margin-top:20px;
+  }
+
+  /* Projects */
+  .blog-entry{
+    margin-bottom:40px;
+  }
+
+  .block-20{
+    height:300px !important;
+    background-size:cover;
+    background-position:center;
+  }
+
+  /* Project buttons */
+  .blog-entry .btn{
+    width:100%;
+    margin-bottom:10px;
+  }
+
+  /* Resume cards */
+  .resume-wrap{
+    margin-bottom:25px;
+  }
+
+  /* Contact boxes */
+  .contact-info .box{
+    margin-bottom:25px;
+  }
+
+}
