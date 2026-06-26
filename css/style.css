@@ -9808,3 +9808,48 @@ textarea.form-control {
   }
 
 }
+
+/* Mobile Hero Layout */
+@media (max-width:768px){
+
+.hero-mobile{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.hero-mobile .one-third{
+    order:1;
+    width:100%;
+    height:280px !important;
+    background-size:contain !important;
+    background-position:center top !important;
+    background-repeat:no-repeat;
+}
+
+.hero-mobile .one-forth{
+    order:2;
+    width:100%;
+    text-align:center;
+    margin-top:-20px;
+}
+
+.hero-mobile .text{
+    text-align:center;
+}
+
+.hero-mobile .btn{
+    width:220px;
+    margin:8px auto;
+    display:block;
+}
+
+.hero-mobile h1{
+    font-size:42px;
+}
+
+.hero-mobile #typing-animation{
+    font-size:22px;
+    white-space:normal;
+}
+}
