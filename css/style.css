@@ -9853,3 +9853,16 @@ textarea.form-control {
     white-space:normal;
 }
 }
+
+@media (max-width: 768px) {
+    .hero .one-third {
+        display: none !important;
+    }
+
+    .hero .one-fourth {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        text-align: center !important;
+    }
+}
