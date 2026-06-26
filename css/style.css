@@ -9314,13 +9314,13 @@ textarea.form-control {
 
 .block-20 {
   overflow: hidden;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
+  background-color: #000;
   position: relative;
   display: block;
-  width: 100%;
-  height: 180px; }
+  width: 100%; }
 
 .blog-entry {
   position: relative; }
